@@ -1,0 +1,375 @@
+html {
+    font-size: 62,5%;
+}
+body {
+    font-size: 1.1rem;
+    font-family: "Poppins",sans-serif;
+    background-color: rgb(231, 211, 211);
+}
+a {
+    text-decoration: none;
+}
+.header.fixed {
+    padding-bottom: 38px;
+}
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.body {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation {
+    margin-left: auto;
+}
+.navigation a {
+    padding: 20px;
+    color: white;
+}
+.navigation a:hover {
+    color: black;
+    box-shadow: 1px 0px px black;
+}
+.button {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 60px;
+    width: 80px;
+    text-align: center;
+    padding: 15px;
+}
+.button.button-sign-up {
+    margin-left: 15px;
+}
+.button.button.button-sign-up:hover {
+    background-color: white;
+    color: black;
+}
+.media-sum .item{
+    display: flex;
+    margin-bottom: 12px;
+
+}
+.item .icon {
+    background-color: rgb(179, 105, 105);
+    border-radius: 20px;
+    padding: 5px;
+    height: 20px;
+    margin-right: 12px;
+}
+.info .title {
+    font-weight: 550;
+    font-size: 1.1rem;
+}
+.media-sum {
+    height: 130px;
+    background-color: white;
+    padding: 23px;
+    border-radius: 5px;
+    position: absolute;
+    left: 20rem;
+    top: 17rem;
+}
+.main {
+    background-color: rgb(231, 211, 211);
+}
+.media-block img{
+    width: 400px;
+    height: 550px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.content-block {
+    margin-left: 350px;
+    width: 1000px;
+}
+.content-block .context.context1 {
+    font-weight: 500;
+    font-size: 2.9rem;
+}
+.content-block .context {
+    margin-bottom: 30px;
+}
+.context a {
+    background-color: rgb(166, 166, 96);
+    width: 140px;
+}
+.context a:hover {
+    background-color: white;
+    color: rgb(225, 225, 108);
+}
+.context {
+    position: relative;
+}
+.context .button.watch {
+    margin-left: 15px;
+    width: 170px;
+}
+.fa-solid.fa-video {
+    color: rgb(245, 245, 4);
+    position: absolute;
+    top: 17px;
+    left: 200px;
+}
+.infor {
+    display: flex;
+    margin-bottom: 30px;
+}
+.infor .k {
+    align-self: self-end;
+    margin-left: 10px;
+}
+.infor .block{
+    display: flex;
+    align-items: baseline;
+}
+.block .block1 {
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+.main-content .body {
+    position: relative;
+}
+.infor .block:last-child {
+    margin-left: 20px;
+}
+.block .block2 {
+    margin-left: 10px;
+}
+/* next */
+.main .next {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+.next .Popular {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.next .Information {
+    display: flex;
+    margin-top: 3rem;
+}
+.Information .sub {
+    font-weight: 550;
+}
+.Information .button {
+    background-color: rgb(172, 172, 62);
+    margin-left: 100px;
+    width: 150px;
+}
+.Information .button:hover {
+    background-color: black;
+}
+.Information .jus {
+    display: flex;
+    align-items: center;
+}
+.Information .jump {
+    margin-bottom: 30px;
+}
+.Information .img .jump {
+    margin-right: 12px;
+    width: 370px;
+    height: 220px;
+    background-size: cover;
+    border-radius: 10px;
+}
+/* quote */
+.main .quote {
+    height: 300px;
+    background-color:  rgb(130, 123, 123);
+    display: flex;
+    align-items: center;
+}
+.infor-user {
+    color: white;
+    width: 1000px;
+    margin-left: 195px;
+}
+.infor-user .name {
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.quote.word {
+    position: relative;
+    margin-right: 195px;
+}
+.quote.word .fa-solid {
+    position: absolute;
+    top: 100px;
+    left: -15px;
+}
+.quote.word .word {
+    color: white;
+    font-style: italic;
+}
+.infor-user img {
+    width: 120px;
+    height: 120px;
+    clip-path: circle();
+}
+
+/* conver */
+.main-content .conver {
+    margin-top: 200px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.conver .img1 {
+    margin-right: 150px;
+}
+.conver .img1 img {
+    width: 350px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.conver .bun {
+    align-self: center;
+}
+.bun .run {
+    margin-bottom: 40px;
+}
+.bun p:first-child {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.bun .button {
+    background-color: rgb(204, 204, 79);
+    width: 150px;
+}
+.bun .button:hover {
+    background-color: black;
+}
+.conver .img2 img {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* blog */
+.blog {
+    margin-bottom: 200px;
+}
+.title .b {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title p:last-child {
+    text-align: center;
+    margin-bottom: 40px;
+} 
+.read-more {
+    display: flex;
+    justify-content: space-between;
+}
+.button.read {
+    background-color: rgb(209, 209, 98);
+    width: 150px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.button.read:hover {
+    background-color: black;
+}
+.how {
+    font-weight: 500;
+    margin-left: 15px;  
+} 
+.inform .back {
+    width: 360px;
+}
+.inform img {
+    width: 370px;
+    height: 220px;
+    background-size: cover;
+    margin-right: 12px;
+    border-radius: 15px 15px 0 0;
+}
+.inform {
+    position: relative;
+    border-radius: 15px;
+}
+.ju.j {
+    margin-left: 25px;  
+}
+.inform .ju {
+    margin-bottom: 30px;
+}
+.read-more .inform {
+    background-color: white;
+    width: 370px;
+}
+.inform .fa-solid {
+    color: yellowgreen;
+    position: absolute;
+    left: 0.4rem;
+    top: 15.7rem;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(130, 123, 123);
+    height: 350px;
+}
+.body .hu {
+    margin-right: 60px;
+}
+.footer .les {
+    width: 400px;
+}
+.les .white {
+    margin-bottom: 20px;
+}
+.les a {
+    margin-right: 10px;
+}
+.footer .copy {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+.white.big {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer .white {
+    color: white;
+}
+.footer a {
+    color: white;
+}
+.footer .hr {
+    margin-top: 40px;
+    width: 1164px;
+}
+.white.vu {
+    line-height: 30px;
+}
+.footer .body {
+    align-items: self-start;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+
